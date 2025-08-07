@@ -10,14 +10,16 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Tabish Raza - Game Developer</h1>
-        <nav className={menuOpen ? 'open' : ''}>
-          <a href="#welcome" onClick={() => setMenuOpen(false)}>Welcome</a>
-          <a href="#games" onClick={() => setMenuOpen(false)}>Games</a>
-          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-        </nav>
-        <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <FaTimes /> : <FaBars />}
+        <div className="header-container">
+          <h1>Tabish Raza - Game Developer</h1>
+          <nav className={menuOpen ? 'open' : ''}>
+            <a href="#welcome" onClick={() => setMenuOpen(false)}>Welcome</a>
+            <a href="#games" onClick={() => setMenuOpen(false)}>Games</a>
+            <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+          </nav>
+          <div className="menu-icon" onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? <FaTimes /> : <FaBars />}
+          </div>
         </div>
       </header>
 
@@ -34,7 +36,6 @@ function App() {
           Whether it's scripting enemy AI, designing level logic, or crafting immersive environments, I take pride in turning ideas into polished, playable realities. I'm always eager to learn, collaborate, and push boundaries in game development.
         </p>
       </div>
-
       <div className="about-img">
         <img src="/tabish.jpg" alt="Tabish Raza" />
       </div>
@@ -111,8 +112,13 @@ function App() {
           </div>
         </div>
       </section>
+
+      <footer className="footer">
+        <p>© 2025 Tabish Raza. All rights reserved.</p>
+      </footer>
     </div>
   );
+  
 }
 
 export default App;
