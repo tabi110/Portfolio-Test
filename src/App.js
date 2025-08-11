@@ -56,7 +56,7 @@ function App() {
             <img src="/BookHeadsCurse.jpg" alt="BookHead's Curse" className="full-img" />
             <p>You are trapped inside a cursed, pitch-black maze, hunted by BookHead—a blind, sound-sensitive creature. Collect keys, manage your flashlight, and survive the terror.</p>
             <a href="https://drive.google.com/drive/folders/1e1VJCH54hM72vJ_jdU0fu2tI9ZlLZtfb?usp=drive_link" target="_blank" rel="noopener noreferrer" className="apk-button">
-              Download for Windows
+              Download APK
             </a>
           </div>
 
