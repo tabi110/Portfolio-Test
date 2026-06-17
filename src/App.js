@@ -24,26 +24,52 @@ function App() {
       </header>
 
       <section id="home" className="about-section">
-      <div className="about-text">
-        <h2>Welcome</h2>
-        <p>
-          I'm Tabish Raza, a passionate and creative game developer with a focus on gameplay mechanics, immersive experiences, and technical design. I specialize in Unity (2D/3D/VR), C#, and love building everything from casual mobile games to deep PC titles.
-        </p>
-        <p>
-          I've developed a variety of projects including action games, puzzle platformers, horror survival games, and simulation experiences. I also work with localization (Urdu, Punjabi, English), translation, and UI/UX design to enhance user engagement.
-        </p>
-        <p>
-          Whether it's scripting enemy AI, designing level logic, or crafting immersive environments, I take pride in turning ideas into polished, playable realities. I'm always eager to learn, collaborate, and push boundaries in game development.
-        </p>
-      </div>
-      <div className="about-img">
-        <img src="/tabish.jpg" alt="Tabish Raza" />
-      </div>
-    </section>
+        <div className="about-text">
+          <h2>Welcome</h2>
+          <p>
+            I'm Tabish Raza, a passionate and creative game developer with a focus on gameplay mechanics, immersive experiences, and technical design. I specialize in Unity (2D/3D/VR), C#, and love building everything from casual mobile games to deep PC titles.
+          </p>
+          <p>
+            I've developed a variety of projects including action games, puzzle platformers, horror survival games, and simulation experiences. I also work with localization (Urdu, Punjabi, English), translation, and UI/UX design to enhance user engagement.
+          </p>
+          <p>
+            Whether it's scripting enemy AI, designing level logic, or crafting immersive environments, I take pride in turning ideas into polished, playable realities. I'm always eager to learn, collaborate, and push boundaries in game development.
+          </p>
+        </div>
+        <div className="about-img">
+          <img src="/tabish.jpg" alt="Tabish Raza" />
+        </div>
+      </section>
 
       <section id="games">
         <h2>My Games</h2>
         <div className="game-list">
+
+          <div className="game-card">
+            <h3>BookHead's Curse</h3>
+            <img src="/BookHeadsCurse.jpg" alt="BookHead's Curse" className="full-img" />
+            <p>You are trapped inside a cursed, pitch-black maze, hunted by BookHead—a blind, sound-sensitive creature. Collect keys, manage your flashlight, and survive the terror.</p>
+            <a href="https://drive.google.com/drive/folders/1e1VJCH54hM72vJ_jdU0fu2tI9ZlLZtfb?usp=drive_link" target="_blank" rel="noopener noreferrer" className="apk-button">
+              Download APK
+            </a>
+          </div>
+
+          <div className="game-card">
+            <h3>Hunter Assassin</h3>
+            <img src="/hunterassasin.png" alt="Hunter Assassin" className="full-img" />
+            <p>A top-down stealth action game inspired by Hunter Assassin. Sneak through the shadows, eliminate targets without being spotted, and master the art of silent takedowns.</p>
+            <a href="https://drive.google.com/drive/folders/1IUg22Q3ZQmCc88AoEDEScQ44B_IcbtGd?usp=drive_link" target="_blank" rel="noopener noreferrer" className="apk-button">
+              Download for Windows
+            </a>
+          </div>
+          <div className="game-card">
+            <h3>Between The Worlds</h3>
+            <img src="/BetweenTheWorlds.png" alt="Between The Worlds" className="full-img" />
+            <p>A haunting liminal experience set inside the mind of a coma patient. Explore the surreal, dreamlike spaces of a fractured consciousness following a tragic accident.</p>
+            <a href="https://drive.google.com/drive/folders/1fFJnoTy3w4KSyndVmUN9w_-H7TeRSQ75?usp=sharing" target="_blank" rel="noopener noreferrer" className="apk-button">
+              Download for Windows
+            </a>
+          </div>
           <div className="game-card">
             <h3>Fireboy & Treegirl</h3>
             <img src="/FireBoyTreeGirlMobile.jpg" alt="Fireboy & Treegirl" className="full-img" />
@@ -52,11 +78,11 @@ function App() {
           </div>
 
           <div className="game-card">
-            <h3>BookHead's Curse</h3>
-            <img src="/BookHeadsCurse.jpg" alt="BookHead's Curse" className="full-img" />
-            <p>You are trapped inside a cursed, pitch-black maze, hunted by BookHead—a blind, sound-sensitive creature. Collect keys, manage your flashlight, and survive the terror.</p>
-            <a href="https://drive.google.com/drive/folders/1e1VJCH54hM72vJ_jdU0fu2tI9ZlLZtfb?usp=drive_link" target="_blank" rel="noopener noreferrer" className="apk-button">
-              Download APK
+            <h3>Car Soccer</h3>
+            <img src="/CarSoccer.png" alt="Car Soccer" className="full-img" />
+            <p>A Rocket League-inspired car soccer game where you compete against AI opponents. Drive, boost, and score goals in fast-paced vehicular football action — no online required!</p>
+            <a href="https://drive.google.com/drive/folders/1n_SRi1BusyRzzLioBAERqTCseBk8PTfp?usp=sharing" target="_blank" rel="noopener noreferrer" className="apk-button">
+              Download for Windows
             </a>
           </div>
 
@@ -84,6 +110,7 @@ function App() {
               Play Online
             </a>
           </div>
+
         </div>
       </section>
 
@@ -118,7 +145,6 @@ function App() {
       </footer>
     </div>
   );
-  
 }
 
 export default App;
